@@ -1,38 +1,3 @@
-// function lo (id){
-//     return document.getElementById(id)
-// }
-//var droppedIn = false;
-//  function drag_start(e) {
-//      lo('app_status').innerHTML = "Dragging the " + e.target.getAttribute('id');
-//      e.dataTransfer.dropEffect = "move";
-//      e.dataTransfer.setData("text", e.target.getAttribute('id')); 
-//  }
-//
-//function drag_enter(e){
-//    lo('app_status').innerHTML = "You are dragging the " + e.target.getAttribute('id');
-//}
-//function darg_leave(e){
-//    lo('app_status').innerHTML = "You left the  " + e.target.getAttribute('id');
-//}
-//
-//function darg_drop (e){
-//    e.preventDefault();
-//    const elem_id = e.dataTransfer.getData("t ext");
-//    e.target.appendChild(lo(elem_id));
-//    lo('app_status').innerHTML = "Dropped " +elem_id+ " into to"+ e.target.getAttribute('id');
-//    lo(elem_id).removeAttribute("draggable");
-//    lo(elem_id).style.cursor = "default";
-//    droppedIn  =true;
-//}
-//
-//
-//function drag_end(e) {
-//    if (droppedIn == false){
-//        lo('app_status').innerHTML = "You let the " + e.target.getAttribute('id')+ " go.";
-//        
-//    }
-//    droppedIn = false;
-//}
 
 function _(id){
    return document.getElementById(id);	
